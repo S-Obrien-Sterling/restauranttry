@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.first-fold{
+    height: 400px;
+    /* using position to overlay text on div */
+    position: relative;
+}
+
+.first-fold > img{
+    width: 100%;
+    height: 100%;
+    /* object-fit property */
+    object-fit: cover;
+}
+
+.first-fold-text{
+    color: #ffffff;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.first-fold-text p{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.first-fold-text h1{
+    font-size: 60px;
+}
+
+.first-fold-text a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3D8361;
+    padding: 24px;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+.first-fold-text a:hover{
+    background-color: #1C6758;
+}
+
+.page-container{
+    background-color: #EEF2E6;
+}
+
+.form-container{
+    width: 600px;
+    margin: auto;
+    padding: 48px 24px;
+}
+
+.page-container{
+    background-color: #EEF2E6;
+}
+
+.form-container{
+    width: 600px;
+    margin: auto;
+    padding: 48px 24px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
